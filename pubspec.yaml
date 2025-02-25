@@ -1,0 +1,24 @@
+name: solana_jsonrpc
+description: A HTTP and Websocket client for Solana's JSON RPC API methods.
+repository: https://github.com/merigo-labs/solana-jsonrpc
+issue_tracker: https://github.com/merigo-labs/solana-jsonrpc/issues/new/choose
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.0.0
+  json_annotation: ^4.8.0
+  solana_common: ^0.1.0+1
+  synchronized: ^3.0.1
+  web_socket_channel: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.1
